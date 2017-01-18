@@ -8,31 +8,31 @@ pomerleauApp.config(function($stateProvider, $urlRouterProvider) {
         
         .state('home', {
             url: '/home',
-            templateUrl: './partials/home.html'
+            templateUrl: '/partials/home.html'
         })
         
         .state('civil-infrastructure', {
             url: '/civil-infrastructure',
-            templateUrl: './partials/civil-infrastructure.html'
+            templateUrl: '/partials/civil-infrastructure.html'
         })
         
         .state('buildings', {
             url: '/buildings',
-            templateUrl: './partials/buildings.html'
+            templateUrl: '/partials/buildings.html'
         })
         
         .state('projects', {
             url: '/projects',
-            templateUrl: './partials/projects.html'
+            templateUrl: '/partials/projects.html'
         })
         
         .state('competencies', {
             url: '/competencies',
-            templateUrl: './partials/competencies.html'
+            templateUrl: '/partials/competencies.html'
         })
         
         .state('about', {
             url: '/about',
-            templateUrl: './partials/about.html'
+            templateUrl: '/partials/about.html'
         });
 });
