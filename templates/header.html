@@ -1,29 +1,26 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    <!-- added 2 extra spans -->
-    <span class="navbar-toggler-icon"></span>
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">Pomerleau</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Civil &amp; Infrastructure</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Buildings</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Competencies</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>            
-    </ul>          
-  </div>
-</nav>
+<nav class="navbar-other">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" ui-sref="home">Pomerleau</a>
+    </div>        
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">                   
+        <li class="nav-item"><a ui-sref="civil-infrastructure">Civil &amp; Infrastructure</a></li>            
+        <li class="nav-item"><a ui-sref="buildings">Buildings</a></li>              
+        <li class="nav-item"><a ui-sref="projects">Projects</a></li>           
+        <li class="nav-item"><a ui-sref="competencies">Competencies</a></li>        
+        <li class="nav-item"><a ui-sref="about">Aboout</a></li>            
+      </ul>
+    </div><!-- /.navbar-collapse -->
+        
+ </nav>
