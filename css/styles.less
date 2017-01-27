@@ -22,6 +22,11 @@
 
 /* ELEMENTS */
 
+.carousel-row {
+  margin: 0; 
+  padding: 0;
+}
+
 span {
   .headline {
     color: @white;
@@ -29,15 +34,25 @@ span {
   }
 }
 
-span {
-  .action {
+a .action {
+  color: @white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  a:active {
     color: @white;
-    text-transform: uppercase;
-    font-size: 1em;
+    text-decoration: none;
   }
+   a:hover {
+    color: @white;
+    text-decoration: none;
+  }
+   a:visited {
+    color: @white;
+    text-decoration: none;
+  }
+  
 }
 
-.carousel-row {
-  margin: 0; 
-  padding: 0;
-}
+
+
